@@ -21,13 +21,20 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
 Dialog DLL:      TCM.DLL V1.27.0.0
  
 <h2>Project:</h2>
-H:\364- microcomp\LED_A\led_asm.uvprojx
-Project File Date:  09/24/2017
+H:\364- microcomp\LED_Atest\led_asm.uvprojx
+Project File Date:  09/25/2017
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
-Build target 'Target 1'
-".\Objects\led_asm.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+assembling led.s...
+led.s(122): warning: A1488W: PROC/FUNC at line 104 in 'led.s' without matching ENDP/ENDFUNC
+assembling startup_stm32l476xx.s...
+linking...
+.\Objects\led_asm.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=364 RO-data=392 RW-data=0 ZI-data=1536  
+Finished: 0 information, 1 warning and 0 error messages.
+".\Objects\led_asm.axf" - 0 Error(s), 2 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
   .\RTE\_Target_1
